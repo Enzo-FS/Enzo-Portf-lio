@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url('C:/Users/enzo.santos/Desktop/Portfolio Enzo/assets/FUNDO NORTE.png');
+}
+
+/*PARTE SUPERIOR/NOME/FOTO/SIMBOLOS*/
+.containerprimario{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 100px;
+    
+}
+
+.nomes{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+ margin-left: 90px;   
+}
+.nomes{
+    margin-left: 150px;
+}
+.simbols{
+    margin-left: 230px;
+}
+
+
+.divns{
+    margin-left: 200px;
+
+}
+.imgfut{
+    width: 200px;
+    margin-left: 100px;
+}
+
+/*SOBRE*/
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+/*Formação Acad*/
+
+.containersecundario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    gap: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.estudanteanalise{
+    border: 1px solid transparent;
+    
+}
+
+.estudanteanalise:hover{
+    border: solid white;
+    border-radius: 10px;
+    transition: border-color 0.4s ease;
+}
+
+.etecn{
+    border:1px solid transparent;
+}
+
+.etecn:hover{
+    border: solid white;
+    border-radius: 10px;
+    transition: border-color 0.4s ease;
+}
+
+.auxadm{
+    border: 1px solid transparent;
+}
+
+.auxadm:hover{
+    border: solid white;
+    border-radius: 10px;
+    transition: border-color 0.4s ease;
+}
+
+.camp{
+    border: 1px solid transparent
+}
+
+.camp:hover{
+    border: solid white;
+    border-radius: 10px;
+    transition: border-color 0.4s ease;
+}
+
+.formacad{
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.exp{
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sep{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/*projetos*/
+.containerterciario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 200px;
+}
+
+.html{
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.java{
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
