@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url('C:/Users/enzo.santos/Desktop/Portfolio Enzo/assets/FUNDO NORTE.png');
+    background-image: url('assets/FUNDO NORTE.png');
 }
 
 /*PARTE SUPERIOR/NOME/FOTO/SIMBOLOS*/
@@ -146,4 +146,5 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
