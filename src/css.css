@@ -4,7 +4,8 @@
 }
 
 body{
-    background-image: url('assets/fundonorte.png');
+    background-color: #C3DED9;
+    
 }
 
 /*PARTE SUPERIOR/NOME/FOTO/SIMBOLOS*/
@@ -148,6 +149,7 @@ body{
     align-items: center;
 
 }
+
 
 
 
